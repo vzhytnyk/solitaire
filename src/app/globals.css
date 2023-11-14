@@ -1,0 +1,38 @@
+:root {
+  /*  COLORS */
+--cardColor: #8db5aa;
+--primaryColor: #a52d2d;
+--secondaryColor: rgba(255, 255, 255, 0.1);
+--darkSecondaryColor: rgba(0, 0, 0, 0.2);
+--buttonActiveColor: rgba(0, 0, 0, 0.6);
+--hoverElemColor: rgba(0, 0, 0, 0.4);
+
+/*  SIZES */
+--cardBorderRadiusOut: 9%;
+--cardBorderRadiusIn: 7%;
+--cardBorderWidth: 0.25em;
+--limitVertical: 20px;
+--limitHorizontal: 40px;
+
+/* ANIMATIONS */
+--smallTransitionTime: 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+

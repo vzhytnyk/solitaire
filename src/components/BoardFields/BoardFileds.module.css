@@ -1,0 +1,69 @@
+
+ /* Base Empty Spots */
+.baseEmptySpots {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.deckCardSpot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .redoDeckButton {
+    background: transparent;
+    border: none;
+    color: white;
+    height: auto;
+    font-size: 50px;
+    transition: transform 0.2s;
+  }
+  
+  .redoDeckButton:hover {
+    transform: scale(1.5);
+  }
+
+  .shakeAnimationButton {
+    animation: shakeButton 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shakeButton {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(30deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-30deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  /*  Game Column Wrapper */
+.gameColumnsRow {
+  margin: 2% 0 2% 0;
+}
+
+ /* Game Top Row */
+.boardDeckRow {
+  margin: 2% 0 2% 0;
+  height: 200px;
+}
+
+
+
+
+
+
+.testColumns {
+  padding-bottom: 15%;
+}

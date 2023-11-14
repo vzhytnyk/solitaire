@@ -1,0 +1,35 @@
+/* CustomDragLayer */
+.cardContainerColumns {
+  margin-top: 30px;
+}
+
+.cardContainerColumns {
+    margin-top: 30px;
+  }
+
+/* Deck and Flipped Piles */
+.deckPile {
+  z-index: 100;
+}
+
+.columnPile {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.dragLayer {
+    position: fixed;
+    pointer-events: none;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* DraggableCard */
+
+  .cardIsDragging {
+    opacity: 0;
+  }
